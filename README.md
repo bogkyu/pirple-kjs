@@ -31,3 +31,8 @@ Fizzes, buzzes and primes.
 ##### 7. Home assignment #7 - The DOM
 JS colors.
 ([gist](https://gist.github.com/bogkyu/b80a3e519fefe8345a72439771beb6cd))
+
+##### 8. Home assignment #8 - Events
+An SPA app, try guessing about what:
+>   Tic-Tac-Toe, Tic-Tac-Toe,
+>   Am I friend or am I foe?

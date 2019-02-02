@@ -1,0 +1,36 @@
+.divBoard {
+    display: table;
+    border: 3px solid #555;
+}
+.divRow {
+    display: table-row;
+}
+.divCell {
+    display: table-cell;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #888;
+    padding: 3px 10px;
+    font-size: 5em;
+    text-align: center;
+    vertical-align: middle;
+}
+.divCell:hover {
+    background : #eee;
+}
+
+.clsx {
+    color: red;
+}
+.clszero {
+    color: black;
+}
+
+.clsx:hover, .clszero:hover {
+    background: none;
+}
+
+body button {
+    margin-top: 1em;
+    font-size: 1em;
+}
