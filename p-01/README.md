@@ -1,4 +1,6 @@
-# Project #1
+# -=- WORK IN PROGRESS -=-
+### _Project #1_
+
 
 ## Description
 Create a simple "to-do list" application, using client-side HTML, CSS, and Javascript only.
