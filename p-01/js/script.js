@@ -4,8 +4,6 @@ const WELCOME_MSG = 'Welcome to this TODO aplication, please sign up, or log in'
 //abe(ne("h1", {'innerText' : APP_NAME}, {'style' : { 'color' : 'red'}}));
 //abe(ne("p", {'innerText' : 'Some paragraph'}));
 
-
-
 const FIRST_PAGE = [
   neTextStyle('h1', APP_NAME, 'clsTitle'),
   neTextStyle('h2', WELCOME_MSG, 'clsWelcome'),
@@ -51,9 +49,9 @@ function elattb(el, obj, slot) {
   const keys = Object.keys(obj);
   for( k of keys) {
     const prop = obj[k];
-    console.log('----- key/value -----');
-    console.log(k, '/', prop);
-    console.log(slot);
+    // console.log('----- key/value -----');
+    // console.log(k, '/', prop);
+    // console.log(slot);
     const xel = fel(el);
     switch( typeof(prop)) {
       case 'string':
