@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  background-color: navy;
+  color: white;
+  padding: 10px 10px 30px;
+}
+
+.tleft {
+  display: inline-block;
+  float: left;
+  /* border: solid 2px red; */
+}
+
+.tright {
+  display: inline-block;
+  float: right;
+  /* border: solid 2px red; */
+}
+
+.home, .navbar {
+  display: inline-block;
+  float: left;
+  padding: 0 0.2em 0;
+}
+
+.logout, .settings {
+  display: inline-block;
+  float: left;
+  padding: 0 0.2em 0;
+}
+
+.homemsg, .buttons, .userdata {
+  margin: 10px auto 20px;
+  width: 60%;
+  text-align: center;
+  /* border: solid 2px red; */
+}
+
+.buttons {
+  /* border: solid 2px red; */
+}
+
+.signbutton {
+  display: inline-block;
+  padding: 10px 30px 10px;
+  background-color: #ccc;
+  margin: 5px 30px 5px;
+  /* border: solid 2px blue; */
+}
+
+.signbutton:hover {
+  background-color: #aaa;
+}
+
+.signbutton:active {
+  background-color: #888;
+  color: white;
+}
+
+.userdata {
+
+}
+.input {
+  text-align: left;
+}
+.label {
+  display: inline-block;
+  /* border: solid 2px blue; */
+  margin: 2px 0 2px 5%;
+  width: 6em;
+}
+.textedit {
+  /* border: solid 2px #567; */
+  margin: 2px 0 2px 5%;
+
+}
